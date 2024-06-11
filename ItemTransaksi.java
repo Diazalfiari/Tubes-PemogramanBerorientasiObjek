@@ -1,9 +1,10 @@
 
-public class ItemTransaksi {
+public class ItemTransaksi extends Produk {
     private Produk produk;
     private int jumlah;
 
     public ItemTransaksi(Produk produk, int jumlah) {
+        super();
         this.produk = produk;
         this.jumlah = jumlah;
     }

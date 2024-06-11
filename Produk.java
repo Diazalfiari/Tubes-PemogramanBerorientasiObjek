@@ -10,6 +10,10 @@ public class Produk {
         this.harga = harga;
     }
 
+    public Produk() {
+
+    }
+
     // setter & getter
     public int getId() {
         return id;
