@@ -1,13 +1,6 @@
 
-public class Kasir {
-    private String nama;
-
+public class Kasir extends Orang {
     public Kasir(String nama) {
-        this.nama = nama;
-    }
-
-    // setter & getter
-    public String getNama() {
-        return nama;
+        super(nama);
     }
 }
